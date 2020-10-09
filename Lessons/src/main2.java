@@ -55,8 +55,7 @@ public class main2 extends main1 {
         }
 
         void displayInfo() {
-           // System. out.printf("Имя: %s\tВозраст: %d\tПол: %s\n", this.name, this.age,this.pol);
-            System.out.format("Имя:%-10s %Возраст:-20d Пол:%-10s", this.name, this.age,this.pol);
+           System. out.printf("Имя: %20s Возраст: %4d Пол: %s\n", this.name, this.age,this.pol);
         }
     }
 }
